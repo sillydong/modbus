@@ -31,7 +31,7 @@ func (q Query) IsValid() (bool, error) {
 	case FunctionReadHoldingRegisters:
 		fallthrough
 	case FunctionReadInputRegisters:
-		maxQuantity = 125
+		maxQuantity = 258 //256+2
 	case FunctionWriteSingleCoil:
 		expectedLen = 1
 	case FunctionWriteSingleRegister:

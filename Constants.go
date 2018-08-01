@@ -29,7 +29,7 @@ var ModeByName = map[string]Mode{}
 const (
 	MaxRTUSize   = 512
 	MaxASCIISize = 512
-	MaxTCPSize   = 260
+	MaxTCPSize   = 260 //100个寄存器,100个字,256字节
 )
 
 // FunctionCode is the modbus function code type.
